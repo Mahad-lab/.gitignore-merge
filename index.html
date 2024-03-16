@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.gitignore Combiner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>.gitignore Merge</h1>
+    <h3>Git Ignored? Not Anymore with .gitignore Merge</h3>
+    <div class="language-selection">
+      <label>Search languages:</label>
+      <input type="text" id="search-input" placeholder="Search...">
+      <div id="language-suggestions"></div>
+      <div id="selected-languages"></div>
+    </div>
+    <div class="button-container">
+      <button id="combine-btn" class="primary">Combine .gitignore</button>
+      <button id="download-btn" class="secondary" disabled>Download .gitignore</button>
+    </div>
+    <div id="combined-languages"></div>
+    <textarea id="combined-gitignore" readonly></textarea>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
