@@ -116,3 +116,7 @@ textarea {
 .secondary {
   background-color: #3498db;
 }
+
+.attribute {
+  text-align: center;
+}
